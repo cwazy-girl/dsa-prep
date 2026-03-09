@@ -1,0 +1,38 @@
+/*
+QUESTION:-
+Given an array of integers nums, return the value of the largest element in the array
+
+Example:
+
+Input:
+n = 5
+A[] = {1, 8, 7, 56, 90}
+Output:
+90
+
+Explanation:
+The largest element of given array is 90
+*/
+
+/*
+APPROACH:
+1. Initialise "ans" with the first element of the array.
+2. Traverse the entire array and update "ans" if any element is greater than ans.
+3. Return ans.
+*/
+
+class Solution {
+public:
+    int largestElement(vector<int>& nums) {
+        int ans = nums[0];
+        for(int i = 0; i < nums.size(); i++) {
+            if(nums[i] > ans) {
+                ans = nums[i];
+            }
+        }
+        return ans;
+    }
+};
+
+//Time Complexity = O(N)
+//Space Complexity = O(1)
