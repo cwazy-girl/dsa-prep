@@ -13,7 +13,7 @@ Explanation : For all i (1 <= i <= 4) it holds nums[i] <= nums[i+1], hence it is
 APPROACH:
 1. Traverse the array and check if there's any element which is greater than the next element.
 2. If so, return false. Else, return true.
-/*
+*/
 
 class Solution{	
 	public:
