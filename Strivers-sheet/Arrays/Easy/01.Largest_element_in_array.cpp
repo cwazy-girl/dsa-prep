@@ -4,14 +4,9 @@ Given an array of integers nums, return the value of the largest element in the 
 
 Example:
 
-Input:
-n = 5
-A[] = {1, 8, 7, 56, 90}
-Output:
-90
-
-Explanation:
-The largest element of given array is 90
+Input: nums = [3, 3, 6, 1]
+Output: 6
+Explanation: The largest element in array is 6.
 */
 
 /*
