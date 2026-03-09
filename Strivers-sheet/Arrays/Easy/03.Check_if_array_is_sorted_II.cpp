@@ -15,6 +15,7 @@ APPROACH:
 2. If so, return false. Else, return true.
 */
 
+//CODE:
 class Solution{	
 	public:
 		bool isSorted(vector<int>& nums){
