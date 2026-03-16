@@ -48,5 +48,5 @@ public:
     }
 };
 
-//Time Complexity : O(log(max-element))
+//Time Complexity : O(N * log(max-element))
 //Space Complexity : O(1)
