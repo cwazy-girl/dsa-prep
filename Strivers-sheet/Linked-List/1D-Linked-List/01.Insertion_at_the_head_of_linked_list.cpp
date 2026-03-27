@@ -20,13 +20,13 @@ APPROACH:
 
 //CODE:
 class Solution {
-    public:
-        ListNode* insertAtHead(ListNode* &head, int X) {
-            ListNode* newnode = new ListNode(X);
-            newnode->next = head;
-            head = newnode;
-            return head;
-        }
+public:
+    ListNode* insertAtHead(ListNode* &head, int X) {
+        ListNode* newnode = new ListNode(X);
+        newnode->next = head;
+        head = newnode;
+        return head;
+    }
 };
 
 //Time Complexity : O(1)
