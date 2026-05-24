@@ -14,7 +14,7 @@ The second 1's next greater number needs to search circularly, which is also 2.
 
 /*
 APPROACH:
-1. We initialise a stack and a vector of size n and all initialised to -1 {to store the ans}.
+1. We initialise a stack and a vector of size n to store the ans {all elements initialised to -1}.
 2. We need to find the greater element using circular array, hence, we will traverse the array twice.
 3. So, in the for loop till 2n - 1, if stack is not empty and the current element is greater than the top element of the stack, we push that element into the ans at the position of the top element, and then pop the stack.
 4. We don't want to push the same elements twice in the stack, hence, if i > n, we do not push the element. We only push when i < n. {Note that we are not exactly pushing elements but their indexes, but we can access the elements by nums[index].}
